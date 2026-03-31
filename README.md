@@ -27,10 +27,9 @@
 ---
 
 ### 📊 Estatísticas | Stats
-<p align="center">
-  <img height="180em" src="https://github-readme-stats.vercel.app/api?username=yagovinicius&show_icons=true&theme=dark" />
-  <img height="180em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=yagovinicius&layout=compact&theme=dark" />
-</p>
+<div align="center">
+  <img src="userstats.svg" width="80%" alt="My Profile Stats" />
+</div>
 
 ---
 
