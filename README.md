@@ -28,7 +28,7 @@
 
 ### 📊 Estatísticas | Stats
 <div align="center">
-  <img src="userstats.svg" width="80%" alt="My Profile Stats" />
+  <img src="./userstats.svg" width="80%" alt="Yago Vinicius GitHub Stats" />
 </div>
 
 ---
