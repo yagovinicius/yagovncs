@@ -18,20 +18,25 @@ jobs:
     steps:
       - name: Checkout profile repo
         uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
 
       - name: Generate static stats SVG
         uses: cicirello/user-statistician@v1
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         with:
-          image-file: assets/userstats.svg
+          image-file: userstats.svg
           colors: dark-dimmed
           custom-title: "Yago Vinicius - Performance"
-          commit-and-push: false 
+          commit-and-push: false
 
-      - name: Commit updated SVG (Solução Anti-Conflito do Copilot)
+      - name: Commit updated SVG
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add assets/userstats.svg
-          git diff --cached --quiet || (git pull --rebase origin main && git commit -m "chore: update profile stats" && git push)
+          git add userstats.svg
+          git diff --cached --quiet && exit 0
+          git commit -m "chore: update profile stats"
+          git pull --rebase origin main
+          git push origin main
