@@ -4,13 +4,13 @@
   <tr>
     <td width="50%" valign="top">
       <h3>🇧🇷 Português</h3>
-      Arquiteto de Soluções e Analista de Dados no <b>Sebrae GO</b>. Especialista em converter processos complexos em ecossistemas inteligentes com IA e Automação. 
+      Arquiteto de Soluções e Analista de Dados. Especialista em converter processos complexos em ecossistemas inteligentes com IA e Automação. 
       <br><br>
       🎓 <i>IA (GRAN) & Adm (Unialfa)</i>
     </td>
     <td width="50%" valign="top">
       <h3>🇺🇸 English</h3>
-      Solutions Architect and Data Analyst at <b>Sebrae GO</b>. Expert in converting complex processes into intelligent ecosystems using AI and Automation.
+      Solutions Architect and Data Analyst. Expert in converting complex processes into intelligent ecosystems using AI and Automation.
       <br><br>
       🎓 <i>AI Tech & Business Admin</i>
     </td>
